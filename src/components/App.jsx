@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <Login isRegistered={userIsRegistered} />
-      {/* {isLoggedIn === true ? <h1>Hello</h1> : <Login />} */}
+      {isLoggedIn === true ? <h1>Hello</h1> : <Login />}
     </div>
   );
 }
